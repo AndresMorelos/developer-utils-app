@@ -26,6 +26,7 @@ import SpreadSheetComparison from './components/pages/spreadsheetComparison';
 import AWSProfileManager from './components/pages/aws-profile-manager';
 import JSONToExcelOrCSV from './components/pages/json-to-excel-or-csv';
 import StatusTracker from './components/pages/status-tracker';
+import RegrexTester from './components/pages/regex-teser';
 
 const { Content, Header } = Layout;
 
@@ -103,6 +104,7 @@ export default function App() {
                 path="/unix-time-converter"
                 component={UnixTimeConverter}
               />
+              <Route path="/regex-tester" component={RegrexTester} />
               <Route path="/about" component={AboutPage} />
               <Route path="/settings" component={SettingsPage} />
               <Route path="/" component={JSONFormatterValidator} />

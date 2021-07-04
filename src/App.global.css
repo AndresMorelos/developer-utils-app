@@ -17,6 +17,10 @@
 .content-layout-dark {
   background-color: rgb(0, 21, 41, 0.89);
 }
+/*
+.ant-layout-sider {
+  background-color: #fff !important;
+} */
 
 .color-light {
   color: #001529 !important;

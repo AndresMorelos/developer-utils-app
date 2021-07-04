@@ -16,7 +16,8 @@
       "yaml-to-json": "YAML a JSON",
       "json-to-yaml": "JSON a YAML",
       "json-to-excel-or-csv": "JSON a Excel/CSV",
-      "status-tracker": "Rastreador de estado"
+      "status-tracker": "Rastreador de estado",
+      "regextester": "Expresiones Regulares"
     },
     "languages": {
       "es": "Español",

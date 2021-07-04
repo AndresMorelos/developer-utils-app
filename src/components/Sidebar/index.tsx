@@ -16,6 +16,7 @@ import { withTranslation } from 'react-i18next';
 import JwtIcon from '../../icons/jwtIcon';
 import BracketsIcon from '../../icons/brackets';
 import Base64Icon from '../../icons/base64';
+import RegexIcon from '../../icons/regex';
 
 const { Sider } = Layout;
 
@@ -57,6 +58,11 @@ const Sidebar = ({ t, theme }: Props) => {
         <Menu.Item key="4" icon={<SafetyCertificateOutlined />}>
           <Link to="/ssl-information" style={{ fontSize: '0.9em' }}>
             SSL verification
+          </Link>
+        </Menu.Item>
+        <Menu.Item key="17" icon={<RegexIcon fill="white" />}>
+          <Link to="/regex-tester" style={{ fontSize: '0.9em' }}>
+            {t('app.sidebar.regextester')}
           </Link>
         </Menu.Item>
         <Menu.Item key="5" icon={<Base64Icon fill="white" />}>
